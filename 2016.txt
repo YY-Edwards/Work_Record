@@ -139,4 +139,18 @@
 	
 2018.8.10-至今：学习《linux多线程服务端编程：使用muduo+C++网络库》，boost程序库以及C++11新标准。
 	
+2018.12.03-2018.12.20：AVR32_OptionBorad基于XCMP协议（DataSeesion）实现bootloader功能等工作。
+	主要涉及：
+	1.用前后台方式重新实现了log输出；
+	2.降低OB的PDCA_RX中断触发频率，以保证不影响AVR32对Flash的操作；
+	3.调整SSC协议同步触发逻辑；
+	4.深入研究XNL协议连接流程；
+	5.缩减任务开销，增加软定时功能以优化扫点巡更逻辑；
+	6.新增远程flash操作协议，以支持远程更新OB固件；
+	7.根据功能重新建立不同的OB工程文件。
 	
+2018.12.26-2018.2.20：
+	1.深入学习和练习muduo编程示例；
+	2.基于muduo库分别实现hub;N-1的multiplexer;1-N的demultiplexer;socks4-proxy;UDNS;protobuf_codec_dispatcher等功能。
+	3.修复漏缆的协议通信解析等bug。
+	4.深入学习makefile文件的编写。
