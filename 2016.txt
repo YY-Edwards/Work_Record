@@ -149,8 +149,10 @@
 	6.新增远程flash操作协议，以支持远程更新OB固件；
 	7.根据功能重新建立不同的OB工程文件。
 	
-2018.12.26-2018.2.20：
+2018.12.26-2018.2.28：
 	1.深入学习和练习muduo编程示例；
 	2.基于muduo库分别实现hub;N-1的multiplexer;1-N的demultiplexer;socks4-proxy;UDNS;protobuf_codec_dispatcher等功能。
 	3.修复漏缆的协议通信解析等bug。
 	4.深入学习makefile文件的编写。
+	5.根据客户需求调整漏缆逻辑。
+	6.基于muduo库、protobuf协议实现文件上传功能。
